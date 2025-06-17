@@ -18,7 +18,6 @@ git add .
 git commit -m "Deploy site to GitHub Pages"
 
 # Push to the gh-pages branch (force-push)
-# Replace <your-username>/<your-repo> with your GitHub repo info
 git remote remove origin 2> /dev/null || true
 git remote add origin https://github.com/Yukiyt778/Yukiyt778.github.io
 git push -f origin gh-pages
